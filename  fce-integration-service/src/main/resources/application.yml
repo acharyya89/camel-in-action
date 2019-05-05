@@ -1,0 +1,9 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: fce-integration-service
+camel:
+  log:
+    msg1: Processing has been started
+    msg2: Processing has been ended
