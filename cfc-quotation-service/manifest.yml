@@ -1,0 +1,8 @@
+applications:
+- name: cfc-quotation-service
+  memory: 1G
+  routes:
+  - route: cfc-quotation-service.cfapps.io
+  path: /Users/mrinmaysantra/git/camel-in-action/cfc-quotation-service/build/libs/cfc-quotation-service-0.0.1-SNAPSHOT.jar
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
