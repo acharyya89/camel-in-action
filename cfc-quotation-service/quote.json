@@ -1,0 +1,15 @@
+{
+	"transportType": "0",
+	"quotedCostExGst": "380",
+	"quotedCostIncGst": "418.00000000000006",
+	"quotedCostAllInc": "495.8316",
+	"quotedCarbonSurcharge": "0",
+	"quotedGST": "45.0756",
+	"fuelSurcharge": "70.756",
+	"adjustment": "0",
+	"transitDays": "3",
+	"quoteError": "",
+	"bulkPricing": "false",
+	"valid": "true",
+	"fuelLevy": "0.1862"
+}
