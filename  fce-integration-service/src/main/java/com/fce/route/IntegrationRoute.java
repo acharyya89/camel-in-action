@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import com.fce.processor.AddressProcessor;
+import com.fce.processor.QuoteProcessor;
 import com.fce.util.AppConstants;
 
 @Component(AppConstants.INTEGRATION_ROUTER)
@@ -27,7 +27,7 @@ public class IntegrationRoute extends RouteBuilder {
 		// Processor details
 		// Modifying address details
 		.log(LoggingLevel.INFO, LOGGER, AppConstants.LOG_KEY_MSG1)
-		.process(new AddressProcessor())
+		.process(new QuoteProcessor())
 		.log(LoggingLevel.INFO, LOGGER, AppConstants.LOG_KEY_MSG2)
 		
 		
