@@ -28,6 +28,7 @@ public class IntegrationRoute extends RouteBuilder {
 		// Modifying address details
 		.log(LoggingLevel.INFO, LOGGER, AppConstants.LOG_KEY_MSG1)
 		.process(new QuoteProcessor())
+		
 		.log(LoggingLevel.INFO, LOGGER, AppConstants.LOG_KEY_MSG2)
 		
 		
